@@ -1,4 +1,5 @@
 FROM almalinux:8
-ENV NAME=CHANDU \
+ENV HOSTNAME=aadhdhhdjn \
+    NAME=CHANDU \
     AGE=23 \
     ADDRESS=BANGALORE

@@ -4,4 +4,6 @@ FROM almalinux:${version:-8}
 RUN echo "version passed by the user is: ${version}"
 ARG COURSE
 ARG TRAINER
+ENV COURSE=${COURSE}
+ENV TRAINER=${TRAINER}
 RUN echo "Course is: ${COURSE} and Trainer is: ${TRAINER} "

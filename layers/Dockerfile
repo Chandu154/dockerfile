@@ -1,5 +1,6 @@
 FROM almalinux:8
 RUN yum install nginx -y
+RUN yum install maven -y
 RUN echo "Hello, welcome to Dockerfile. A way of creating own image" > /usr/share/nginx/html/hello.html
 CMD [ "nginx", "-g", "daemon off;" ]
 
